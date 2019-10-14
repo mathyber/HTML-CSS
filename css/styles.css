@@ -312,17 +312,17 @@
   background-position: bottom 16px left 1px;
 }
 
+.all-services{
+  display: flex;
+  justify-content: space-around;
+}
+
 .all-services__slide{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 
   max-width: 1115px;
-}
-
-.all-services{
-  display: flex;
-  justify-content: space-around;
 }
 
 .all-services__items{
@@ -397,7 +397,7 @@
 }
 
 .about-company__column{
-  margin-right: 65px;
+  margin-right: 25px;
   max-width: 445px;
 }
 
@@ -423,7 +423,6 @@
   max-width: 605px;
 
   list-style-type: none;
-  padding-inline-start: 0;
 }
 
 .about-company__info-item{
