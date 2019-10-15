@@ -488,6 +488,10 @@
   position:relative;
   max-height: 450px;
   height:0;
+
+  background-image: url("../img/maps.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .maps__yandex{
