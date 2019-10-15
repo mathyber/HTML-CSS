@@ -320,7 +320,6 @@
 .all-services__slide{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 
   max-width: 1115px;
 }
@@ -380,11 +379,12 @@
 .about-company{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .about-company__brief{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin-top: 120px;
   margin-bottom: 120px;
 
@@ -396,12 +396,12 @@
   max-width: 1115px;
 }
 
-.about-company__column{
+.about-company__column-title{
   margin-right: 25px;
   max-width: 445px;
 }
 
-.about-company__column2{
+.about-company__column-cards{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -476,13 +476,13 @@
 }
 
 .maps{
-
     overflow:hidden;
     padding-top: 450px;
     position:relative;
     max-height: 450px;
     height:0;
 }
+
 .maps__yandex{
     display: block;
     left:0;
