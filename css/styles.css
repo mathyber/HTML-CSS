@@ -478,10 +478,6 @@
   color: #000000;
 }
 
-.maps__map-img{
-  display: block;
-}
-
 .maps{
   overflow:hidden;
   padding-top: 450px;
