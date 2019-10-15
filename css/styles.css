@@ -475,6 +475,23 @@
   display: block;
 }
 
+.maps{
+
+    overflow:hidden;
+    padding-top: 450px;
+    position:relative;
+    max-height: 450px;
+    height:0;
+}
+.maps__yandex{
+    display: block;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 .footer{
   display: flex;
   justify-content: space-around;
