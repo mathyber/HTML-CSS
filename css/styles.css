@@ -186,21 +186,26 @@
   display: flex;
   justify-content: center;
 
+
   background-image: url("../img/bg.svg");
   background-position: center;
   min-height: 561px;
 }
 
 .services-slider__slide{
+  position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 
-  max-width: 1115px;
+  padding-left: 5%;
+  padding-right: 5%;
+  min-width: 70%;
+  max-width: 1332px;
 }
 
 .services-slider__info{
-  margin-right: 28px;
+  z-index: 1;
 }
 
 .section-title{
@@ -222,7 +227,6 @@
 .services-slider__text{
   max-width: 445px;
   margin-top: 25px;
-  margin-left: auto;
   margin-bottom: 50px;
 }
 
@@ -251,20 +255,19 @@
 }
 
 .services-slider__img{
-  width: 445px;
-  height: 266px;
-
-  margin-top: 160px;
-  margin-bottom: 129px;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 40%;
+  height: auto;
 }
 
 .services-slider__buttons{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding-top: 132px;
-  padding-bottom: 95px;
-  margin-left: 27px;
+  justify-content: space-around;
+
+  z-index: 1;
 }
 
 .services-slider__next{
@@ -311,21 +314,17 @@
 
 .all-services{
   display: flex;
-  justify-content: space-around;
-}
-
-@media screen and (max-width: 1130px) {
- .section-title_adapt{
-   margin-left: 5%;
- }
+  justify-content: center;
 }
 
 .all-services__slide{
   display: flex;
-  align-items: stretch;
   flex-direction: column;
 
-  max-width: 1115px;
+  padding-left: 5%;
+  padding-right: 5%;
+  min-width: 70%;
+  max-width: 1332px;
 }
 
 .all-services__items{
@@ -338,6 +337,8 @@
 
 .all-services__item{
   list-style-type: none;
+  width: 23.5%;
+  min-width: 220px;
 }
 
 .all-services__svg{
@@ -353,8 +354,6 @@
 .all-services__link{
   display: block;
   margin: 1px;
-
-  width: 276px;
 
   background-color: #393F47;
 
@@ -382,7 +381,7 @@
 
 .about-company{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .about-company__brief{
@@ -397,11 +396,11 @@
   background-size: contain;
   background-repeat: no-repeat;
 
-  max-width: 1115px;
+  min-width: 82%;
+  max-width: 1332px;
 }
 
 .about-company__column-title{
-  margin-right: 25px;
   max-width: 445px;
 }
 
