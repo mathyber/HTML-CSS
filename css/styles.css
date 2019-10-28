@@ -271,6 +271,7 @@
   top: 25%;
   left: 40%;
   width: 40%;
+  max-width: 550px;
   height: auto;
 }
 
