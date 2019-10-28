@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?8ozay3');
+  src:  url('../fonts/icomoon.eot?8ozay3#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?8ozay3') format('truetype'),
+    url('../fonts/icomoon.woff?8ozay3') format('woff'),
+    url('../fonts/icomoon.svg?8ozay3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
 .page{
   margin: 0;
   padding: 0;
@@ -336,18 +348,47 @@
 }
 
 .all-services__item{
+  position: relative;
   list-style-type: none;
   width: 23.5%;
   min-width: 220px;
 }
 
-.all-services__svg{
-  margin-top: 35px;
+.all-services__image{
+  display: flex;
+  justify-content: center;
+}
+
+.all-services__icon{
+  margin-top: 30px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.all-services__text-icon{
+  margin: 0;
+  margin-top: 25px;
+  font-family: 'icomoon';
+  color: #fff;
+  font-size: 70px;
+}
+
+.all-services__link:hover{
+  background-color: #C8A35F;
+}
+
+.all-services__link:hover .all-services__text-icon{
+  color: #2F343A;
+}
+
+.all-services__link:hover .all-services__icon{
+  background-color: white;
 }
 
 .all-services__service-name{
   margin: 0;
-  padding-top: 23px;
+  padding-top: 25px;
   padding-bottom: 35px;
 }
 
@@ -365,18 +406,6 @@
   text-transform: uppercase;
   color: inherit;
   text-decoration: none;
-}
-
-.all-services__link:hover{
-  background-color: #C8A35F;
-}
-
-.all-services__link:hover path{
-  fill: #2F343A;
-}
-
-.all-services__link:hover circle{
-  fill: white;
 }
 
 .about-company{
